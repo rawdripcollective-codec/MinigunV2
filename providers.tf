@@ -3,3 +3,13 @@
 # Please make changes to the application template instead.
 # Application Template: projects/default-project/locations/us-central1/spaces/default-space/applicationTemplates/default-app-template
 
+provider "google" {
+  default_labels = {
+    goog-adc-tf-deployment = "export"
+  }
+}
+provider "google-beta" {
+  default_labels = {
+    goog-adc-tf-deployment = "export"
+  }
+}
