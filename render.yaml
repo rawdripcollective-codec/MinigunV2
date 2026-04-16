@@ -2,6 +2,6 @@ services:
   - type: web
     name: minigunv2
     env: static
-    rootDir: .
+    rootDir: render.yaml
     buildCommand: ""
     staticPublishPath: .
