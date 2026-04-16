@@ -1,1 +1,7 @@
-repo_root_path: .
+services:
+  - type: web
+    name: minigunv2
+    env: static
+    rootDir: .
+    buildCommand: ""
+    staticPublishPath: .
