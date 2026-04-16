@@ -8,10 +8,3 @@ services:
       - type: rewrite
         source: /*
         destination: /index.html
-    envVars:
-      - key: REPO_ROOT
-        value: /opt/render/project/src
-      - key: PROJECT_NAME
-        value: MinigunV2
-      - key: TERRAFORM_VERSION
-        value: "1.5.0"
