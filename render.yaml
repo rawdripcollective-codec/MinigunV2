@@ -1,1 +1,7 @@
-https://github.com/rawdripcollective-codec/MinigunV2/tree/main/root
+services:
+  - type: web
+    name: minigunv2
+    env: static
+    rootDir: .
+    buildCommand: ""
+    staticPublishPath: .
