@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://render.com/schema/render.yaml.json
 services:
   - type: web
     name: minigunv2
     env: static
-    rootDir: render.yaml
+    rootDir: .
     buildCommand: ""
     staticPublishPath: .
